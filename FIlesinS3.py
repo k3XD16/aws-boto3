@@ -46,7 +46,6 @@ def lambda_handler(event, context):
         print(f"Bucket Name: {list_all_s3['Buckets'][i]['Name']}")
         print(f"Creation Date: {list_all_s3['Buckets'][i]['CreationDate']}")
 
-    
         
     #Uploading File in Bucket
     
