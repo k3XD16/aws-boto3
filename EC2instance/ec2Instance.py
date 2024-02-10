@@ -23,20 +23,20 @@ def lambda_handler(event, context):
     InstanceIds=['i-instanceid'  #instances - id
         ]
     )
-    print(f"Instance {InstanceIds} is Stopped")
+    # print(f"Instance {InstanceIds} is Stopped")
     
     
     #Start EC2 Instances
     instance = ec2.start_instances(
         InstanceIds=['i-instanceid'])
-    print(f"Instance {InstanceIds} is Starting Again")
+    # print(f"Instance {InstanceIds} is Starting Again") 
         
         
     #Terminate EC2 Instances
     instance = ec2.terminate_instances(
         
         InstanceIds=[instancetyp])
-    print(f"Instance {instancetyp} is Terminated")
+    # print(f"Instance {instancetyp} is Terminated")
     
     
     #Describe Ec2 Instances
