@@ -1,4 +1,4 @@
-# JSon to DynamoDB
+# JSON to DynamoDB
 
 ### This Lambda Function denotes, when you;ve a JSON file of key value pair of data which can be converted into db you can use this lambda script to send the JSON into DynamoDB.
 
